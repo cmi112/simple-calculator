@@ -1,0 +1,22 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    font-family: Gotham Rounded, sans-serif;
+    font-weight: normal;
+
+  }
+  body{
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to right, #f4f6ff, #abc2e8);
+  }
+  .maindiv{
+    border: 1px solid black;
+    display: grid;
+    justify-content:center;
+    align-items: center;
+    min-height: 10vh;
+    padding: 2px;
+    margin: 20px;
+    /* grid-template-columns: repeat(3, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(3, 100px); */
+  }
