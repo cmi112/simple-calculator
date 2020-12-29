@@ -1,28 +1,45 @@
 <html>
-<head>
-<title>Simple Calculator</title>
-<link rel="stylesheet" href="styles.css">
-
-</head>
-<body>
+  <head>
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <div class="maindiv">
-<h1>Calculator</h1>
-First Number: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = "text" id = "n1" maxlength = "7" value="0">
-<br><br>
-Second Number:&nbsp; <input type = "text" id = "n2" maxlength = "7" value="0"><br><br>
-<select id = "opr">
-	<option value = "+">+</option>
-	<option value = "-">-</option>
-	<option value = "x">x</option>
-	<option value = "/">/</option>
-	<option value = "%">%</option>
-</select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<input type = "Button" value = "=" onclick="calc();">
-<br>
-<br>
-Answer: <input type = "text" id = "result"><br><br>
-</div>
+      <h1>Calculator</h1>
+      First Number: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input
+        type="text"
+        id="n1"
+        maxlength="7"
+        value=""
+        placeholder="0"
+      />
+      <br /><br />
+      Second Number:&nbsp;
+      <input
+        type="text"
+        id="n2"
+        maxlength="7"
+        value=""
+        placeholder="0"
+      /><br /><br />
+      <select id="opr">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="x">x</option>
+        <option value="/">/</option>
+        <option value="%">%</option></select
+      >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="Button" value="=" onclick="calc();" />
+      <br />
+      <br />
+      Answer:
+      <input
+        type="text"
+        id="result"
+        placeholder="Here is the answer"
+      /><br /><br />
+    </div>
 
-<script src="main.js"></script>
-</body>
+    <script src="main.js"></script>
+  </body>
 </html>
